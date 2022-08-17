@@ -14,3 +14,13 @@
 
 // 입출력 예 #2
 // 9 + 8 + 7 = 24이므로 24를 return 하면 됩니다.
+
+// 1번 풀이
+function solution(n)
+{
+    let arr;
+    arr = n.toString().split('').map(x => parseInt(x))
+    let answer = arr.reduce((x,y) => x + y,0 )
+
+    return answer;
+}
