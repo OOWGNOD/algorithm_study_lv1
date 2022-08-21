@@ -16,3 +16,9 @@
 // 입출력 예 #2
 
 // num1이 27, num2가 19이므로 27 * 19 = 513을 return합니다.
+
+function solution(num1, num2) {
+    var answer = 0;
+    answer = num1 * num2
+    return answer;
+}
