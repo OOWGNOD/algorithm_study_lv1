@@ -17,3 +17,8 @@
 // 입출력 예 #2
 
 // num1이 7, num2가 2이므로 7을 2로 나눈 몫 3을 return 합니다.
+function solution(num1, num2) {
+    var answer = 0;
+    answer = Math.floor(num1/num2)
+    return answer;
+}
