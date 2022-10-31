@@ -17,3 +17,11 @@
 // 입출력 예 #2
 
 // numbers의 원소들의 평균 값은 94.0입니다.
+function solution(numbers) {
+    var answer = 0;
+    let _numbers = 0;
+   for(let i = 0; i < numbers.length; i++){
+            _numbers += numbers[i];
+        }
+    return answer = _numbers / numbers.length;
+}
